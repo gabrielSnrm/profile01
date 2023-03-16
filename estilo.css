@@ -75,11 +75,32 @@ div img {
     justify-content: right;
     margin-top: 50px;
     padding: 0px;
+    
 }
 
 /*FIM DA CONFIGURAÇÃO DA SEGUNDA SECTION*/
 
+/*CONFIGURANDO O ASIDE*/
+aside {
+    background-color: rgba(126, 61, 31, 0.486);
+    color: black;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+   border-radius: 10px;
+   margin-top: 50px;
+}
 
+aside a {
+    margin-top: 5px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+}
+/*FIM DA CONFIGURAÇÃO DO ASIDE*/
 
 /*CONFIGURANDO O FOOTER*/
 footer {
