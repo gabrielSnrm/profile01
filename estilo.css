@@ -1,0 +1,89 @@
+/*FONT BASE: 'Suisse Intl' */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    background-color: #F0F0E8;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*CONFIGURANDO O HEADER*/
+header {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100px;
+}
+
+header h3, p {
+    margin-top: 30px;
+}
+
+header p {
+    font-size: 12px;
+}
+/*FIM DA CONFIGURAÇÃO DO HEADER*/
+
+main {
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+/*CONFIGURANDO A PRIMEIRA SECTION*/
+.article-principal {
+    border-bottom: 1px solid black;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    row-gap: 194px;
+    margin-bottom: 50px;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    padding: 0px;
+}
+
+div.img-principal{
+    float: right;
+    text-align: right;
+}
+
+div img {
+    width: 60%;
+}
+/*FIM DA CONFIGURAÇÃO DA PRIMEIRA SECTION*/
+
+
+
+/*CONFIGURANDO A SEGUNDA SECTION*/
+.article-secundario {
+    border-bottom: 1px solid black;
+}
+
+.section-secundaria {
+    display: flex;
+    flex-direction: row;
+    row-gap: 50px;
+    text-align: right ;
+    height: auto;
+    justify-content: right;
+    margin-top: 50px;
+    padding: 0px;
+}
+
+/*FIM DA CONFIGURAÇÃO DA SEGUNDA SECTION*/
+
+
+
+/*CONFIGURANDO O FOOTER*/
+footer {
+    text-align: center;
+    font-size: 10px;
+}
+/*FIM DA CONFIGURAÇÃO DO FOOTER*/
